@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_4_Grupo2.MainPage"
+             BackgroundColor="#1FEA3F">
+
+    <StackLayout >
+        <Label Text="Ejercicio 1.4  PM2 Grupo 2" TextColor="Black" FontSize="18" HorizontalOptions="Center" />
+        <Image
+            x:Name="image1" HeightRequest="300"
+            ></Image>
+        <Label Text="Nombre" TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+        <Entry Text=""  Keyboard="Text" x:Name="txtnombre"/>
+
+        <Label Text="Descripcion" TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+        <Entry Text=""  Keyboard="Text" x:Name="txtdcorta"/>
+
+        <Button
+            Text="Tomar Foto" BackgroundColor="#067918" TextColor="White" FontSize="18"
+            Clicked="Button_Clicked"
+            ></Button>
+        <Button Text="Guardar foto" BackgroundColor="#067918" TextColor="White" FontSize="18" Clicked="Button_Clicked_2"></Button>
+        <Button
+            Text="a SQLite" BackgroundColor="#067918" TextColor="White" FontSize="18"
+            Clicked="Button_Clicked_1"
+            ></Button>
+        
+    </StackLayout>
+
+</ContentPage>
